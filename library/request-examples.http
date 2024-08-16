@@ -67,7 +67,7 @@ Content-Type: application/json
 ###
 
 # обновление книги
-PATCH {{baseUrl}}/orders/1/
+PATCH {{baseUrl}}/orders/3/
 Content-Type: application/json
 
 {

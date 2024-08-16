@@ -7,17 +7,7 @@ class BookSerializer(serializers.ModelSerializer):
         model = Book
         fields = ['id','author', 'title', 'year']
 
-    def create(self, validated_data):
-        print(validated_data)
-        return super().create(validated_data)
 
-    def update(self, instance, validated_data):
-        print(validated_data)
-        return super().update(instance, validated_data)
-
-    def delete(self, instance):
-        print(instance)
-        return super().delete(instance)
     #доп задание
     #def to_representation(self, instance):
     #     representation = super().to_representation(instance)
@@ -31,17 +21,7 @@ class OrderSerializer(serializers.ModelSerializer):
         model = Order
         fields = '__all__'
 
-    def create(self, validated_data):
-        print(validated_data)
-        return super().create(validated_data)
 
-    def update(self, instance, validated_data):
-        print(validated_data)
-        return super().update(instance, validated_data)
-
-    def delete(self, instance):
-        print(instance)
-        return super().delete(instance)
 
 
     #доп задание
